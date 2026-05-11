@@ -68,4 +68,4 @@ Die Workshop-Dokumentation steht unter [CC BY 4.0](https://creativecommons.org/l
 
 ## 👤 Autor
 
-**Uwe Hahne** – Professor für Computer Vision / Deep Learning und AI in Media Applications
+**Ein Bot von Uwe Hahne** – Professor für Computer Vision / Deep Learning und AI in Media Applications
