@@ -1,0 +1,72 @@
+site_name: "From Photos to 3D Model"
+site_description: "Workshop: 3D Raumrekonstruktion mit Foundation Models"
+site_author: "Uwe Hahne"
+site_url: https://KIMBOT26.github.io/3D-Reconstruction-Workshop/
+
+repo_name: KIMBOT26/3D-Reconstruction-Workshop
+repo_url: https://github.com/KIMBOT26/3D-Reconstruction-Workshop
+
+edit_uri: edit/main/docs/
+
+copyright: "© 2026 Uwe Hahne — Lizenz: CC BY 4.0"
+
+theme:
+  name: material
+  language: de
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Zu dunklem Modus wechseln
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Zu hellem Modus wechseln
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.share
+
+plugins:
+  - search:
+      lang: de
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  generator: false
+
+nav:
+  - Start: index.md
+  - Ablaufplan: ablaufplan.md
+  - Modelle: modelle.md
+  - Setup & Installation: setup.md
+  - Foto-Guide: fototipps.md
