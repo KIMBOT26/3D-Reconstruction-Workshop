@@ -42,8 +42,6 @@ theme:
 plugins:
   - search:
       lang: de
-  - minify:
-      minify_html: true
 
 markdown_extensions:
   - admonition
